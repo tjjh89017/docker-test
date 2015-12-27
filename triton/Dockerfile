@@ -32,7 +32,7 @@ RUN git clone https://github.com/JonathanSalwan/Triton.git ${PIN}/source/tools/T
 RUN mkdir -p ${PIN}/source/tools/Triton/build
 
 WORKDIR /root/${PIN}/source/tools/Triton/build
-RUN cmake -DKERNEL4=yes ..
+RUN cmake ..
 RUN make
 
 WORKDIR /root/${PIN}/source/tools/Triton/
