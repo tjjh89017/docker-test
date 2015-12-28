@@ -3,7 +3,7 @@
 
 int never_use(){
 
-	return system("cat flag");
+	return system("sh");
 }
 
 int main(){
