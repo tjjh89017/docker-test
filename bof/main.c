@@ -9,7 +9,7 @@ int never_use(){
 int main(){
 
 	char s[10];
-	scanf("%s", s);
+	gets(s);
 	puts(s);
 
 	return 0;
