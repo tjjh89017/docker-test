@@ -1,0 +1,7 @@
+bof:
+    build: ./
+    ports:
+        - "5656:5656"
+    volumes:
+        - ./ctf:/home/ctf/:ro
+    tty: true

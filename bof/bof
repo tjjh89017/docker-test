@@ -1,0 +1,11 @@
+service bof
+{
+	disable = no
+	type = UNLISTED
+	socket_type = stream
+	protocol = tcp
+	wait = no
+	user = bof
+	port = 5656
+	server = /home/ctf/bof
+}
